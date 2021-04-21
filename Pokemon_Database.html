@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<title>Pokemon Database</title>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Courier New', monospace; <! ––"Pokemon Database font" -->
+}
+
+.split {
+  height: 45%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #000080; <! ––logo background -->
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 0%;
+}
+
+</style>
+</head>
+<body>
+
+<form id="form1" runat="server">
+<div class="split left"> <! ––split screen in half -->
+  <div class="centered"> <! ––center logo -->
+
+    <img src="giantpokeball.svg" class="clsFirstImg" alt="ball logo" height="300px" style="width:50%;">
+
+    <img src= "pokemonlogo.png" class="clsSecondImg" alt="pokemon logo" height="115px" style="width:70%;">
+
+    <img src= "pikachu.svg" class="clsThirdImg" alt="pikachu side image" height="150px" align="right" style="width:30%" > 
+
+    <img src="giantpokeball.svg" class="clsFourthImg" alt="ball logo two" height="60px" style="width:15%;">\
+
+
+    <h1 style="color:#FFD801; font-size:50px;">Pokemon Database</h1>
+
+  </div>
+</div>
+</form>
+<style>
+	/*.clsFirstIg   /* pokeball logo placement */
+	/*{
+		position:relative; 
+		top:0;
+		left:0;
+	} */
+
+	.clsSecondImg
+	{
+		
+		position:absolute; /*pokemon logo placement */
+		top:90px; /* up and down */
+		left:60px; /* left and right */
+	}
+
+	.clsThirdImg
+	{
+		position: absolute; /* pikachu placement */
+		bottom:5px; /* up and down */
+		right:-700px; /*left and right */
+		
+	}
+
+	.clsFourthImg
+	{
+		position:absolute;
+		bottom:5px;
+		right:-590px;
+		
+	}
+
+
+
+
+     
+</body>
+</html> 
+<body>
+
+
+
