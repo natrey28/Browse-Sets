@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<title>Pokemon Database</title>
-<html>
+<title>Pokemon Card List</title>
+<html lang="en-US">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+	body {
   font-family: 'Courier New', monospace; <! ––"Pokemon Database font" -->
 }
 
 .split {
-  height: 45%;
+  height: 45%; /* how much blue */
   width: 100%;
   position: fixed;
   z-index: 1;
   top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+  
+ 
 }
 
+/* Control the left side */
 .left {
   left: 0;
+  background-color: #111;
+}
+
+
+
+
+.right {
+  right: 0;
   background-color: #000080; <! ––logo background -->
 }
 
@@ -41,12 +52,89 @@ body {
 <body>
 
 <form id="form1" runat="server">
-<div class="split left"> <! ––split screen in half -->
+
+<div class="split left">
+  <div class="centered">
+    <img src="img_avatar2.png" alt="Avatar woman">
+    <h2>Jane Flex</h2>
+    <p>Some text.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  font-family: 'Courier New', monospace;
+  	}
+	*{
+		margin: 0; padding: 0; border: 0; box-sizing: border-box;
+	}
+
+	#container{
+		min-height: 100vh;
+	}
+
+	.top{
+		height: 40vh;
+		background-color: #000080;
+	}
+
+	.bottom{
+		height: 60vh;
+		background-color: #ffffff;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+
+		<div class="top"></div>
+			
+
+
+
+		<div class="bottom"></div>
+
+	</div>
+
+</style>
+</head>
+<body>
+
+<form id="form1" runat="server">
+
+<div class="split left">
+  <div class="centered">
+    <img src="img_avatar2.png" alt="Avatar woman">
+    <h2>Jane Flex</h2>
+    <p>Some text.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="split right"> <! ––split screen in half -->
   <div class="centered"> <! ––center logo -->
 
     <img src="giantpokeball.svg" class="clsFirstImg" alt="ball logo" height="300px" style="width:50%;">
 
-    <img src= "pokemonlogo.png" class="clsSecondImg" alt="pokemon logo" height="115px" style="width:70%;">
+    <img src= "trainerlogo.svg" class="clsSecondImg" alt="trainer logo" height="200px" style="width:90%;">
 
     <img src= "pikachu.svg" class="clsThirdImg" alt="pikachu side image" height="150px" align="right" style="width:30%" > 
 
@@ -97,6 +185,7 @@ body {
 </body>
 </html> 
 <body>
+
 
 
 
